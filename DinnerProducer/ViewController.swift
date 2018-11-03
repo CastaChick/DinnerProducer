@@ -34,8 +34,10 @@ class ViewController: UIViewController {
         if alcholSwich.isOn {
             usersLike[3] = 3
         }
+        
         usersLike[0] = costSlider.value
         usersLike[2] = tasteSlider.value
+        
         if partnerSegment.selectedSegmentIndex == 0{
             usersLike[1] = 1.5
         } else if partnerSegment.selectedSegmentIndex == 1 {
